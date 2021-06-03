@@ -1,0 +1,124 @@
+header{
+    font-family: 'Playfair Display', serif;
+  font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 72px;
+    margin-bottom: 20px;
+    text-align:center;
+
+}
+.subhead{
+    text-transform: uppercase;
+    border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;
+    padding: 12px 0 12px 0;
+
+}
+.container {
+  border-top: 1px solid #DADCE0;
+  overflow-x: hidden;
+  background-image:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/paper_fibers.png");
+}
+
+.frontpage {
+  margin: 0 -17px 0 -16px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fp-cell {
+  padding: 16px;
+  background-image:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/paper_fibers.png");
+
+  border-right: 1px solid #DADCE0;
+  border-bottom: 1px solid #DADCE0;
+  width:100;
+  height:auto;
+}
+
+.fp-cell--1 {
+  grid-row: 1 / span 2;
+  height:auto;
+}
+
+.fp-cell--2 {
+  grid-column: 2 / span 2;
+  height:auto;
+}
+
+.fp-cell--3 {
+  grid-column: 2;
+}
+
+.fp-item {
+  background-color: #efefef;
+  display: flex;
+  align-items: justify;
+  justify-content: justify;
+  min-height: 200px;
+  height: 100%;
+}
+.newspaper{
+      column-count:2;
+      text-align:justify;
+}
+ h2{
+      /*border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;*/
+    padding: 10px 0 10px 0;
+      column-span:all;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 36px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+
+    }
+    .newspaper img{
+      width:100%
+    }
+h1{
+   padding: 20px 0 20px 0;
+      column-span:all;
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 36px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0
+}
+.newspaper2
+{
+  column-count:3;
+      text-align:justify;
+}
+.newspaper2 img{
+  max-width:100%;
+    height:auto;
+  border-radius:50%;
+}
+.newspaper2 img1{
+    width:100%
+  }
+p{
+  text-align:justify;
+  line-height:1.2;
+}
+h3{
+  text-align:justify;
+}
+.newspaper1 img{
+  width:100%;
+  height:auto;
+}
+.newspaper3
+{
+  column-count:3;
+      text-align:justify;
+}
+.newspaper5 img{
+width:100%;
+height:100%;
+}
